@@ -126,6 +126,11 @@ function onMessageChange(){
 		$("#to_name").html('the giftee name goes here');
 		$("#gift_amount").html('the amount goes here');
 		$("#gift_message").html('the message goes here');
+
+		$("#fname").val('');
+		$("#to_giftee").val('');
+		$("#input_amount").val('');
+		$("#messagetxtbox").val('');
 	});
 });//end of ready function starting at line 1
 
